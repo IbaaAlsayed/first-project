@@ -1,0 +1,155 @@
+* ,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    display: grid;
+    grid-template-columns: 25% 10fr;   
+    background-color: rgb(182, 176, 176);
+    color: rgb(241, 241, 241);
+   
+
+}
+.left{
+    margin: 8px;
+    background-color: rgba(121, 47, 77, 0.993);
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.img-left {
+    position: relative;
+    font-size: 15px;
+}
+/* .icon {
+    padding-left :
+} */
+.img-left img {
+    border-radius: 50%;
+    border: 0 5px 15px rgb(0, 0, 0);
+    height:12rem;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2px;
+}
+.intro {
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 25%;
+    background-color: rgba(146, 145, 145, 0.671);
+}
+.personal-info {
+    padding-top: 8px;
+    background-color: rgba(121, 118, 118, 0.473);
+}
+.personal-info ,
+.language ,
+.contact{
+    padding-top: 0.5rem;
+    line-height:2;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.contact a:hover {
+    color:rgb(87, 85, 85);
+    text-shadow: 0.4 15px 5px rgb(250, 246, 250); 
+}
+.btn {
+    background-color: rgba(97, 41, 63, 0.993);
+    width: 60%;
+    margin-top: 10px;
+    margin-left:36rem;
+    text-align: center;
+    border-radius: 5px;
+    padding: 19px;
+    margin-bottom: 1rem;
+}
+.btn:hover{
+   transform: scale(1.1);
+   box-shadow: 0 5px 5px rgb(56, 53, 53) ;
+}
+.btn a:hover{
+    color:rgb(182, 176, 176);
+}   
+
+.right {
+    margin-top: 8px;
+    background-color: rgba(253, 253, 253, 0.993);
+    border-radius: 10px; 
+    padding: 1rem;
+    color: black;
+    max-height: 900rem;
+    line-height: 1rem;
+}
+.education li {
+    padding: 10px; 
+}
+.education h2 {
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+.education h3 {
+    color: rgba(133, 33, 73, 0.993); 
+}
+.education .btn-visit {
+    background-color:rgba(133, 33, 73, 0.993); 
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;    
+}
+.btn-visit:hover {
+    box-shadow: 0 5px 10px black;
+}
+.btn-visit a:hover{
+    color:rgb(168, 167, 167)
+}
+.courses {
+    background-color: rgb(255, 255, 255);
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.courses a {
+    color:rgb(121, 51, 92);
+    font-weight: 900; 
+    background-color: rgb(180, 178, 178);
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.courses h1 {
+    padding-bottom: 10px;
+}
+.courses a:hover {
+    color: rgb(116, 113, 113);
+}
+.hobbies ul,.skills ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills .li-wrap ,
+.hobbies .li-wrap{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color:rgb(121, 51, 92);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.skills .li-wrap:hover,
+.hobbies .li-wrap:hover {
+transform: scale(1.1);
+box-shadow: 0 5px 10px black;
+}

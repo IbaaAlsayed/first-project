@@ -1,0 +1,52 @@
+body {
+    background-color:rgba(94, 17, 17, 0.993);
+}
+.main {   
+    background-color: rgb(230, 230, 230);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 550px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+video{
+    width: 45%;
+    height: 300px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+}
+.main h2 {
+    padding-top: 3rem;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.main p {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 20px;
+}
+.btn {
+    background-color:rgba(94, 17, 17, 0.993);
+    color: white;
+    width: 20%;
+    height: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px black;
+}
